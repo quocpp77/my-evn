@@ -1,27 +1,24 @@
-# MyEvn
+--Github
+// Tạo một repository mới
+git init
+git add README.md
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+git commit -m "first commit"
+git branch -m main
 
-## Development server
+// Nếu chưa clone đến repository của bạn đến máy chủ remote, thực hiện
+git remote add origin https://github.com/quocpp77/my-evn.git
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+// Đẩy (push) các thay đổi
+git push origin main
 
-## Code scaffolding
+// Tải xuống (pull = fetch + merge) dữ liệu từ remote repository và cập nhật Local repository phù hợp với dữ liệu đó
+git pull origin main (hoặc git pull https://github.com/quocpp77/my-evn.git)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+// Copy một Repo từ máy Remote về Local
+git clone https://github.com/quocpp77/my-evn.git
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+// Thêm (add) & commit
+git add <file/folder>
+git add *
+git commit -m "firt commit"
