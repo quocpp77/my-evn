@@ -1,0 +1,17 @@
+  mat-nav-list {
+    margin: 0;
+    padding: 0;
+
+    .menu-tittle {
+      height: 30px;
+      margin: 12px 10px 5px 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--primary-color);
+    }
+
+  }
+
+  .toolbar-spacer {
+    flex: 1 1 auto;
+  }
